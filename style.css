@@ -67,7 +67,7 @@ nav{
     background: rgb(0, 0, 0);
    
   }
-  nav ul{
+nav ul{
     float: right;
     margin-right: 40px;
   }
@@ -122,9 +122,6 @@ nav #icon{
 .change .bar3 {
     transform: translate(0, -11px) rotate(45deg);
   }
- 
-   
-  
 @media(max-width:1048){
     nav ul{
       margin-right: 20px;
