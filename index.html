@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" type="image/x-icon" href="IMG_0714.ico">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>our Projects</title>
@@ -16,14 +17,19 @@
 </head>
 <body>
     <nav>
-        <label class="logo"><img src="imege/IMG_0714.JPG" /></label>
+        <label class="logo"><img src="IMG_0715.png" /></label>
         <ul>
-          <li><a href=" https://kayancompany2025.github.io/home/">Home</a></li>
-          <li><a class="active" href="https://kayancompany2025.github.io/our-projects/">our Projets</a></li>
-          <li><a href="https://kayancompany2025.github.io/type-of-floor-that-we-install/">Type Floor That we install</a></li>
-          <li><a href=" https://kayancompany2025.github.io/about-us/">About us</a></li>
-          <li><a href="https://kayancompany2025.github.io/contact-us/">Contact us</a></li>
+          <li><a id="Home" href=" https://kayancompany2025.github.io/home/">Home</a></li>
+          <li><a id="Our_projects" class="active" href="https://kayancompany2025.github.io/our-projects/">our Projects</a></li>
+          <li><a id="Type_of_floor" href="https://kayancompany2025.github.io/type-of-floor-that-we-install/">Type Floor That we install</a></li>
+          <li><a id="about_us" href=" https://kayancompany2025.github.io/about-us/">About us</a></li>
+          <li><a id="contact_us" href="https://kayancompany2025.github.io/contact-us/">Contact us</a></li>
+        <select name="" id="">
+            <option value="en">English</option>
+            <option value="ar">العربية</option>
+        </select>
         </ul>
+    
         <label id="icon">
           <div class="container" onclick="myFunction(this)">
             <div class="bar1"></div>
@@ -32,167 +38,224 @@
           </div>
         </label>
     </nav>
-    <h2 class="title">Projects</h2>
+    <h2 id="title" class="title">Projects</h2>
     <div class="cards"id="projects">
         
         <div class="contact">
-            <div class="card">
+            <div   class="card">
+
                 <div class="info">
-                    <h3>Amazon <BR>Cairo Festival City location</BR></h3>
-                    <br>
-                    <p>-lvl flooring installation. <br>-Installation of carpet flooring tiles. <br>-Vinyl flooring installation.</p>
-                    <br>
-                    <a class="see-photo" href="https://kayancompany2025.github.io/project_1_amazon/">See photos </a>
-                </div>
-            </div>
-            <div class="card">
-                <div class="info">
-                    <h3>Egptain Stock Exchange building<BR>Smart village location</BR></h3>
-                    <br>
-                    <p>-Raised Floors.</p>
-                    <br>
-                    <a class="see-photo" href="https://kayancompany2025.github.io/egptain_stock_project/">See photos </a>
-                </div>
-            </div>
-            <div class="card">
-                <div class="info">
-                    <h3>Sangor University<BR>Burj AL Arab location</h3>
+                    <div id="p_1">
+                        <h3 >Amazon <br>Cairo Festival City location </BR></h3>
                         <br>
-                    <p>-Vinyl Floors.</p>
-                    <br>
-                    <a class="see-photo" href="https://kayancompany2025.github.io/sengor_university_project/">See photos </a>
-                </div>
-            </div>
-            <div class="card">
-                <div class="info">
-                    <h3>British School<BR>SODC location</h3>
+                        <p>-LVT flooring installation. <br>-Installation of carpet flooring tiles. <br>-Vinyl flooring installation.</p>
+                    </div>  
                         <br>
-                    <p>-Vinyl Floors.</p>
+                    <a id="see_photos" class="see-photo" href="https://kayancompany2025.github.io/project_1_amazon/">See photos </a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="info">
+                    <div id="p_2">
+                        <h3>Egyptian Stock Exchange building<BR>Smart village location</BR></h3>
+                        <br>
+                        <p>-Raised Floors.</p>
+                    </div>
+                        <br>
+                    <a id="see_photos_2" class="see-photo" href="https://kayancompany2025.github.io/egptain_stock_project/">See photos </a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="info">
+                    <div id="p_3">
+                        <h3>Sangor University<BR>Burj AL Arab location</h3>
+                        <br>
+                        <p>-Vinyl Floors.</p>
+                    </div>
                     <br>
-                    <a class="see-photo" href="#see-photo-4">See photos </a>
+                    <a id="see_photos_3" class="see-photo" href="https://kayancompany2025.github.io/sengor_university_project/">See photos </a>
                 </div>
             </div>
             <div class="card">
                 <div class="info">
-                    <h3>Medical center <BR>nasr city location</h3><br>
-                    <p>-Vinyl Floors installation. <br>-lvl flooring installation</p>
+                    <div id="p_4">
+                        <h3>British School<BR>SODC location</h3>
+                        <br>
+                        <p>-Vinyl Floors.</p>
+                    </div>
                     <br>
-                    <a class="see-photo" href="#see-photo-5">See photos </a>
+                    <a id="see_photos_4" class="see-photo" href="">See photos </a>
                 </div>
             </div>
             <div class="card">
                 <div class="info">
-                    <h3>Mount international School</h3><br>
-                    <p>-Vinyl flooring installation. <br>-carpet flooring installation. <br>-installing parquet flooring.</p><br>
-                    <a class="see-photo" href="#see-photo-6">See photos </a>
+                    <div id="p_5"> 
+                        <h3>Medical center <BR>nasr city location</h3>
+                        <br>
+                        <p>-Vinyl Floors installation. <br>-LVT flooring installation</p>
+                    </div>
+                    <br>
+                    <a id="see_photos_5" class="see-photo" href="">See photos </a>
                 </div>
             </div>
             <div class="card">
                 <div class="info">
-                    <h3>Medical center <BR>Wessal city location</h3><br>
-                    <p>-Vinyl Floors installation.</p><br>
-                    <a class="see-photo" href="#see-photo-7">See photos </a>
+                    <div id="p_6"> 
+                        <h3>Mount international School</h3><br>
+                        <p>-Vinyl flooring installation. <br>-carpet flooring installation. <br>-installing parquet flooring.</p> 
+                    </div>
+                    <br>
+                    <a id="see_photos_6" class="see-photo" href="https://kayancompany2025.github.io/project_4/">See photos </a>
                 </div>
             </div>
             <div class="card">
                 <div class="info">
-                    <h3>Administrative buidling <br>Diaa Company</h3><br>
-                    <p>-Vinyl flooring</p><br>
-                    <a class="see-photo" href="#see-photo-8">See photos </a>
+                    <div id="p_7">
+                        <h3>Medical center <BR>Wessal city location</h3><br>
+                        <p>-Vinyl Floors installation.</p>
+                    </div>
+                    <br>
+                    <a id="see_photos_7" class="see-photo" href="">See photos </a>
                 </div>
             </div>
             <div class="card">
                 <div class="info">
-                    <h3>People Hospital</h3><br>
-                    <p>-Vinyl Floors installation. </p><br>
-                    <a class="see-photo" href="#see-photo-9">See photos </a>
+                    <div id="p_8">
+                        <h3>Administrative building <br>Diaa Company</h3><br>
+                        <p>-Vinyl flooring installation.</p> 
+                    </div>
+                    <br>
+                    <a id="see_photos_8" class="see-photo" href="">See photos </a>
                 </div>
             </div>
             <div class="card">
                 <div class="info">
-                    <h3>Administrative hvd </h3>
-                    <h4>location fifth settlement</h4><br>
-                    <p>-Vinyl Floors installation. </p><br>
-                    <a class="see-photo" href="#see-photo-10">See photos </a>
+                    <div id="p_9">
+                        <h3>People Hospital</h3><br>
+                        <p>-Vinyl Floors installation. </p> 
+                    </div>
+                    <br>
+                    <a id="see_photos_9" class="see-photo" href="">See photos </a>
                 </div>
             </div>
             <div class="card">
                 <div class="info">
-                    <h3>Ijada Company building </h3>
-                    <h4>location smart village</h4><br>
-                    <p>-Vinyl Floors tiles installation. </p><br>
-                    <a class="see-photo" href="#see-photo-11">See photos </a>
+                    <div id="p_10">
+                        <h3>Administrative hvd building</h3>
+                        <h4>location fifth settlement</h4><br>
+                        <p>-Vinyl Floors installation. </p>
+                    </div>
+                    <br>
+                    <a id="see_photos_10" class="see-photo" href="">See photos </a>
                 </div>
             </div>
             <div class="card">
                 <div class="info">
-                    <h3>Haven Hospital</h3><br>
-                    <p>-Vinyl Floors installation. </p><br>
-                    <a class="see-photo" href="#see-photo-12">See photos </a>
+                    <div id="p_11">
+                        <h3>Ijada Company building </h3>
+                        <h4>location smart village</h4><br>
+                        <p>-Vinyl Floors tiles installation. </p> 
+                    </div>
+                    <br>
+                    <a id="see_photos_11" class="see-photo" href="">See photos </a>
                 </div>
             </div>
             <div class="card">
                 <div class="info">
-                    <h3>japanese University</h3>
-                    <h4>location Borg EL Arab</h4><br>
-                    <p>-installation raised floors. </p><br>
-                    <a class="see-photo" href="#see-photo-13">See photos </a>
+                    <div id="p_12">
+                        <h3>Haven Hospital</h3><br>
+                        <p>-Vinyl Floors installation. </p>
+                    </div>
+                    <br>
+                    <a id="see_photos_12" class="see-photo" href="">See photos </a>
                 </div>
             </div>
             <div class="card">
                 <div class="info">
-                    <h3> Universal School</h3><br>
-                    <p>-installation of playground floors. </p><br>
-                    <a class="see-photo" href="#see-photo-14">See photos </a>
+                    <div id="p_13">
+                        <h3>japanese University</h3>
+                        <h4>location Borg EL Arab</h4><br>
+                        <p>-installation raised floors. </p> 
+                    </div>
+                    <br>
+                    <a id="see_photos_13" class="see-photo" href="">See photos </a>
                 </div>
             </div>
             <div class="card">
                 <div class="info">
-                    <h3> jayda Center</h3>
-                    <h4>location nasr city</h4><br>
-                    <p>-Vinyl flooring installation . </p><br>
-                    <a class="see-photo" href="#see-photo-15">See photos </a>
+                    <div id="p_14">
+                        <h3> Universal School</h3><br>
+                        <p>-installation of playground floors. </p> 
+                    </div>
+                    <br>
+                    <a id="see_photos_14" class="see-photo" href="">See photos </a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="info">
+                    <div id="p_15">
+                        <h3> jayda Center</h3>
+                        <h4>location nasr city</h4><br>
+                        <p>-Vinyl flooring installation . </p> 
+                    </div>
+                    <br>
+                    <a id="see_photos_15" class="see-photo" href="">See photos </a>
                 </div>
             </div>
             <div class="card"> 
                 <div class="info">
-                    <h3> B12 Hospital</h3>
-                    <h4>location Madinaty</h4><br>
-                    <p>-Vinyl flooring installation. </p><br>
-                    <a class="see-photo" href="#see-photo-16">See photos </a>
+                    <div id="p_16">
+                        <h3> B12 Hospital</h3>
+                        <h4>location Madinaty</h4><br>
+                        <p>-Vinyl flooring installation. </p> 
+                    </div>
+                    <br>
+                    <a id="see_photos_16" class="see-photo" href="">See photos </a>
                 </div>
             </div>
             <div class="card"> 
                 <div class="info">
-                    <h3> king School</h3><br>
-                    <p>-Vinyl flooring installation. </p><br>
-                    <a class="see-photo" href="#see-photo-17">See photos </a>
+                    <div id="p_17">
+                        <h3> king School</h3><br>
+                        <p>-Vinyl flooring installation. </p> 
+                    </div>
+                    <br>
+                    <a id="see_photos_17" class="see-photo" href="">See photos </a>
                 </div>
             </div>
             <div class="card"> 
                 <div class="info">
-                    <h3> Egyptain Post</h3>
-                    <h4>location Smart village</h4><br>
-                    <p>-Vinyl flooring installation and carpeting. </p><br>
-                    <a class="see-photo" href="#see-photo-18">See photos </a>
+                    <div id="p_18">
+                        <h3> Egyptain Post</h3>
+                        <h4>location Smart village</h4><br>
+                        <p>-Vinyl flooring installation and carpeting. </p> 
+                    </div>
+                    <br>
+                    <a id="see_photos_18" class="see-photo" href="https://kayancompany2025.github.io/egypt_post/">See photos </a>
                 </div>
             </div>
             <div class="card"> 
                 <div class="info">
-                    <h3> Benha University</h3><br>
-                    <p>-Installation of carpet flooring tiles for the University theater. </p><br>
-                    <a class="see-photo" href="#see-photo-19">See photos </a>
+                    <div id="p_19">
+                        <h3> Benha University</h3><br>
+                        <p>-Installation of carpet flooring tiles for the University theater. </p> 
+                    </div>
+                    <br>
+                    <a id="see_photos_19" class="see-photo" href="">See photos </a>
                 </div>
             </div>
             <div class="card"> 
                 <div class="info">
-                    <h3> Cairo Specialized Hospital</h3><br>
-                    <p>-Installation of vinyl flooring on floors and walls. </p><br>
-                    <a class="see-photo" href="#see-photo-20">See photos </a>
+                    <div id="p_20">
+                        <h3> Cairo Specialized Hospital</h3><br>
+                        <p>-Installation of vinyl flooring on floors and walls. </p> 
+                    </div>
+                    <br>
+                    <a id="see_photos_20" class="see-photo" href="https://kayancompany2025.github.io/Cairo_Specialized_Hospital/">See photos </a>
                 </div>
             </div> 
         </div>
     </div>   
-    <script src="script.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>

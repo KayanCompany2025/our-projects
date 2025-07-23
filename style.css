@@ -4,12 +4,30 @@
     text-decoration: none;
     list-style: none;
   }
+.info{
+  color:rgb(255, 255, 255);
+  font-size: 21px;
+}
+select{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(66, 95, 69);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    border: none;
+}
+select:hover{
+    background-color: rgb(205, 248, 167);
+    color: rgb(0, 0, 0);
+    transition: .5s;
+}
 .cards{
-    background-color: rgb(255, 255, 255);
     width: 100%;
 }
 .card:hover{
     transform: scale(1.1);
+    transition: .5s;
 }
 .contact{
     display: flex;
@@ -18,56 +36,57 @@
     flex-wrap: wrap;
 }
  
-.section{
 
-    padding: 100px 50px;
-    display: flex;
-    width: 95%;
-    background-color: rgb(0, 0, 0);
-}
-.section p{
-    color: rgb(255, 145, 0);
-}
 .card{
-    background-color: rgb(255, 145, 0);
+  
     width: 21.25em;
-    box-shadow: 0 5px 25px rgb(255, 174, 0,50%);
+    box-shadow: 0 5px 25px rgba(184, 202, 212, 0.5);
     border-radius: 10px;
     padding: 25px;
     margin: 15px;
-    transition: 0.7s ease;
+    transition: 0.7s
+    border none;
+    
+    border: 2px solid rgba(255, 255, 255, 0.858);
+    border-radius: 16px;
+    font-size: 16px;
+     
+     
 }
 .title {
     text-align: center;
      
     
     justify-content: center;
-    background-color: rgb(255, 145, 0);
+    background-color: rgb(66, 95, 69);
      
     color:rgb(0, 0, 0);
     font-size:2.2em ;
     font-weight:800 ;
 }
 .see-photo{
-    color: rgb(255, 145, 0);
+    color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 0 15px;
     border-radius: 15px;
-    background-color: black;
+    font-size: 20px;
+    background-color: rgb(66, 95, 69);
 }
 label.logo img{
     width: 200px;
-    padding: 0 100px;
+    padding: 7px 100px;
     line-height: 80px;
   }
 body{
-    font-family: montserrat;
-  }
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background:url(IMG-20250116-WA0020.jpg) no-repeat;
+    background-size: cover;
+    
+}
 nav{
     height: 80px;
     width: 100%;
-    background: rgb(0, 0, 0);
-   
+    background: #3d342b;
   }
 nav ul{
     float: right;
@@ -79,14 +98,14 @@ nav li{
     line-height: 80px;
   }
 nav a {
-    color:rgb(255, 145, 0);
+    color:#EFE8D9;
     font-size: 18px;
     border: 1px solid transparent;
     padding: 7px 10px;
     border-radius: 3px;  
   }
 a.active,a:hover{
-    border: 1px solid rgb(255, 145, 0);
+    border: 1px solid ;
     transition: .5s;
   }
 nav #icon{
@@ -107,7 +126,7 @@ nav #icon{
 .bar1, .bar2, .bar3 {
     width: 35px;
     height: 5px;
-    background-color:rgb(255, 145, 0);
+    background-color:rgba(255, 255, 255, 0.858);
     margin: 6px 0;
     transition: 0.4s;
   }
@@ -145,11 +164,12 @@ nav #icon{
       position: fixed;
       width: 100%;
       height: 100vh;
-      background: black;
+      background:rg;
       top: 80px;
       left:-100%;
       text-align: center;
       transform: all .5s;
+      background-color:#3d342b ;
   
     }
     nav li{
@@ -162,12 +182,26 @@ nav #icon{
     }
     a.active,a:hover{
       border: none;
-      color: black;
+      color: rgb(255, 255, 255);
       border-radius: 15px;
-      background-color: rgb(255, 145, 0);
+      background-color: rgb(66, 95, 69);
     }
     nav ul.show{
       left: 0;
-  
     }
-  }
+    body{
+      background:  url(1.jpg) ;
+       
+    }
+    select{
+      width: 200px;
+      height: 50px;
+    }
+    .info{
+      font-size: 22.5px;
+    }
+    select{
+      width: 200px;
+      height: 50px;
+      font-size: 20px;}
+    }
